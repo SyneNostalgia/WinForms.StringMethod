@@ -45,6 +45,7 @@
             txtFullname.Name = "txtFullname";
             txtFullname.Size = new Size(425, 27);
             txtFullname.TabIndex = 0;
+            txtFullname.Text = "นายอชิตะ บุญมารักษ์";
             // 
             // txtTitle
             // 
