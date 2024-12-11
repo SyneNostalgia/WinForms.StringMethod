@@ -32,7 +32,7 @@
             fullname = fullname.Substring(x).Trim();
 
             //MessageBox.Show(title + "\n" + fullname);
-            x = fullname.IndexOf(" ");
+            x = fullname.IndexOf(' ');
             firstname = fullname.Substring(0, x).Trim();
             lastname = fullname.Substring(x).Trim();
 
