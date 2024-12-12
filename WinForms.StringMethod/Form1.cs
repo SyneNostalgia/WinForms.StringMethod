@@ -14,7 +14,7 @@
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string fullname= "" ,firstname = "", lastname = "", title = "";
+            string fullname = "", firstname = "", lastname = "", title = "";
             int x = 0;
 
             fullname = txtFullname.Text.Trim();
@@ -29,9 +29,22 @@
                 x = 3;
                 title = fullname.Substring(0, x);
             }
+            else if (fullname.StartsWith("เด็กหญิง"))
+            {
+                x = 8;
+                title = fullname.Substring(0, x);
+            }
+            else if (fullname.StartsWith("เด็กชาย"))
+            {
+                x = 7;
+                title = fullname.Substring(0, x);
+            }
+            else
+            {
+                x = fullname.LastIndexOf('.') + 1;
+                title = fullname.Substring(0, x);
+            }
             fullname = fullname.Substring(x).Trim();
-
-            //MessageBox.Show(title + "\n" + fullname);
             x = fullname.IndexOf(' ');
             firstname = fullname.Substring(0, x).Trim();
             lastname = fullname.Substring(x).Trim();
@@ -39,6 +52,10 @@
             txtTitle.Text = title;
             txtFirstName.Text = firstname;
             txtLastName.Text = lastname;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
         }
     }
 }
