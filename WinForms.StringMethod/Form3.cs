@@ -160,7 +160,7 @@ namespace WinForms.StringMethod
 
         private void btnReang_Click(object sender, EventArgs e)
         {
-            int[] data = { 5, 3, 8, 1, 9 };
+            int[] data = { 5, 3, 8, 1, 10 };
             if (comboBox2.SelectedItem?.ToString() == "มากไปน้อย")
             {
                 lblresult.Text = string.Join(", ", Desc(data)); ;

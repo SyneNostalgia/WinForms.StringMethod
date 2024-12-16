@@ -48,7 +48,7 @@
             btnBMI.Name = "btnBMI";
             btnBMI.Size = new Size(125, 29);
             btnBMI.TabIndex = 0;
-            btnBMI.Text = "หาBMI";
+            btnBMI.Text = "หาความเร็วสุดท้าย";
             btnBMI.UseVisualStyleBackColor = false;
             btnBMI.Click += btnBMI_Click;
             // 
@@ -57,9 +57,9 @@
             btnTriangle.BackColor = Color.White;
             btnTriangle.Location = new Point(291, 52);
             btnTriangle.Name = "btnTriangle";
-            btnTriangle.Size = new Size(125, 29);
+            btnTriangle.Size = new Size(148, 29);
             btnTriangle.TabIndex = 1;
-            btnTriangle.Text = "หาพื้นที่สามเหลี่ยม";
+            btnTriangle.Text = "หาด้านตรงข้ามมุมฉาก";
             btnTriangle.UseVisualStyleBackColor = false;
             btnTriangle.Click += btnTriangle_Click;
             // 
@@ -105,9 +105,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(58, 93);
             label1.Name = "label1";
-            label1.Size = new Size(71, 20);
+            label1.Size = new Size(122, 20);
             label1.TabIndex = 7;
-            label1.Text = "ส่วนสูง cm";
+            label1.Text = "ความเร็วเริ่มต้น m/s";
             label1.Click += label1_Click;
             // 
             // label2
@@ -115,9 +115,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(58, 146);
             label2.Name = "label2";
-            label2.Size = new Size(72, 20);
+            label2.Size = new Size(45, 20);
             label2.TabIndex = 8;
-            label2.Text = "น้ำหนัก kg";
+            label2.Text = "เวลา s";
             // 
             // label3
             // 

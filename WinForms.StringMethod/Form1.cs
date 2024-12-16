@@ -57,5 +57,35 @@
         private void button1_Click_1(object sender, EventArgs e)
         {
         }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            txtFullname.Text = "น.ส.อชิตะ บุญมารักษ์";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txtFullname.Text = "เด็กชายอชิตะ บุญมารักษ์";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            txtFullname.Text = "เด็กหญิงอชิตะ บุญมารักษ์";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txtFullname.Text = "ผศ.ดร. อชิตะ บุญมารักษ์";
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            txtFullname.Text = "อชิตะ บุญมารักษ์";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            txtFullname.Text = "Mr. อชิตะ บุญมารักษ์ ณ กุมภวาปี";
+        }
     }
 }
